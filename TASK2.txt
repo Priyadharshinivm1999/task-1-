@@ -1,0 +1,80 @@
+**task-2: Write a blog on difference between document and window objects **
+
+** DEFINITIONS of Document Object : **
+1.The document object represents your web page.
+2.If you want to access any element in an HTML page, you always start with accessing the document object.
+3.It is a programming interface that allows us to create, change, or remove elements from the document.
+4.We can also add events to these elements to make our page more dynamic. 
+
+** DEFINITIONS of Window Object : **
+1.The window object is the topmost object of the DOM hierarchy. 
+2.It represents a browser window or frame that displays the contents of the webpage. 
+3.Whenever a window appears on the screen to display the contents of the document,
+the window object is created. 
+
+
+
+**Differences between Document and Window Objects :**
+
+
+*DOCUMENT-->It represents any HTML document or web page that is loaded in the browser.
+
+WINDOW OBJECT-->It represents a browser window or frame that displays the contents of the webpage.  
+
+
+
+*DOCUMENT-->It is loaded inside the window.
+
+WINDOW OBJECT-->It is the very first object that is loaded in the browser.
+
+
+
+*DOCUMENT-->It is the object of window property.
+
+WINDOW OBJECT-->It is the object of the browser.
+
+
+
+*DOCUMENT-->All the tags, elements with attributes in HTML are part of the document.
+
+WINDOW OBJECT-->Global objects, functions, and variables of JavaScript are members of the window object.
+
+
+
+*DOCUMENT-->We can access the document from a window using the window. document
+
+WINDOW OBJECT-->We can access the window from the window only. i.e. window.window
+
+
+
+*DOCUMENT-->The document is part of BOM (browser object model) and dom (Document object model)
+
+WINDOW OBJECT-->The window is part of BOM, not DOM.
+
+
+
+*DOCUMENT-->Properties of document objects such as title, body, cookies,
+            etc can also be accessed by a window like this window. document.title
+
+WINDOW OBJECT-->Properties of the window object cannot be accessed by the document object.
+
+
+
+*DOCUMENT-->syntax:
+
+      document.propertyname;
+
+WINDOW OBJECT-->syntax:
+
+        window.propertyname;
+
+
+
+*DOCUMENT-->example:
+
+     document.title :  will return the title of the document
+
+WINDOW OBJECT-->example:
+
+    window.innerHeight : will return the height of the content area of the browser
+
